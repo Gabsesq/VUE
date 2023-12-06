@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--Vue script tag-->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <!--CUSTOM CODE-->
+    <script src="app.js" defer></script>
+    <link rel= "stylesheet" href="style.css">
+</head>
+<body>
+    <div id="Books">
+        <ul></ul>
+            <form>
+                <div>
+                    <label for="title">Title: </label>
+                    <input id="title" type="text"> 
+                    <label for="ISBN">ISBN: </label>
+                    <input id="ISBN" type="text"> 
+                    <label for="Person">Person: </label>
+                    <input id="Person" type="text"> 
+                    <input type="submit" value="New">
+                </div>
+
+            </form>
+            
+
+    </div>
+    <div id="Person">
+        <ul></ul>
+        <form>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input id="name" type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input id="email" type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="address">Address:</label>
+            <input id="address" type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input id="phone" type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="library_card">Library card:</label>
+            <input id="library_card" type="text" class="form-control">
+          </div>
+          <input type="submit" value="New" class="btn btn-primary">
+        </form>
+      </div>
+        
+    
+</body>
+</html>
